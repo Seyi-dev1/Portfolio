@@ -4,16 +4,13 @@
   margin: 0;
   box-sizing: border-box;
   display: grid;
-  // justify-content: center;
-  // align-items: center;
   height: 100vh;
+  align-items: center;
   // overflow: hidden;
 
   .socials {
-    // position: absolute;
-    // bottom: 0rem;
-    // left: 40%;
     display: none;
+    // margin-top: 6rem;
     margin-bottom: 2rem;
     gap: 6rem;
     align-items: center;
@@ -39,7 +36,7 @@
     // position: sticky;
     // top: 0;
     background-color: #21212f;
-    background-color: #151515;
+    // background-color: #151515;
   }
 }
 .layout {
