@@ -36,6 +36,9 @@
     // position: sticky;
     // top: 0;
     background-color: #21212f;
+    position: absolute;
+    top: 0;
+    width: 100%;
     // background-color: #151515;
   }
 }
@@ -44,10 +47,6 @@
   padding: 0rem 8rem;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
-  // justify-content: center;
-  // align-content: center;
-  // height: 100vh;
-  // overflow: hidden;
   color: #fff;
   @media screen and (max-width: 1300px) {
     padding: 0rem 3rem;

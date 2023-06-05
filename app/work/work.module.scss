@@ -1,3 +1,7 @@
 .work {
   padding: 4rem 0;
+
+  @media screen and (max-width: 1300px) {
+    margin-top: 4rem;
+  }
 }
