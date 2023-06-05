@@ -159,8 +159,6 @@
       width: 27px;
       transition-duration: 0.5s;
     }
-    #menu-button.is-opened {
-    }
     #menu-button.is-opened .menu-icon::before {
       transform: rotateZ(135deg) translate(3px, -3px);
       width: 27px;
