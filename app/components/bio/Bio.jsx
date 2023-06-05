@@ -111,11 +111,6 @@ const Bio = () => {
             </div>
           </div>
         </div>
-        {/* <div className={styles.links}>
-                <div className={styles.linksContent}>
-                  <h1>Links</h1>
-                </div>
-              </div> */}
       </div>
     </div>
   );

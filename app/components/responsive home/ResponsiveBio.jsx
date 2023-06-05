@@ -60,23 +60,6 @@ const ResponsiveBio = () => {
               </Link>
             </div>
           </div>
-          {/* <div className={styles.socials}>
-            <div className={styles.socialLink}>
-              <span>
-                <BsGithub className={styles.icon} />
-              </span>
-            </div>
-            <div className={styles.socialLink}>
-              <span>
-                <BsTwitter className={styles.icon} />
-              </span>
-            </div>
-            <div className={styles.socialLink}>
-              <span>
-                <MdEmail className={styles.icon} />
-              </span>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
