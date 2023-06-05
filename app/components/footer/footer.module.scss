@@ -1,0 +1,67 @@
+.footer {
+  display: none;
+  @media screen and (max-width: 1300px) {
+    display: grid;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 1rem;
+
+    button {
+      width: 13rem;
+
+      @media screen and (max-width: 450px) {
+        width: 10rem;
+      }
+    }
+
+    .linkbtn {
+      padding: 1rem 3rem;
+      color: #fff;
+      background-color: #1c1c20;
+      outline: none;
+      border: none;
+      font-size: 15px;
+      cursor: pointer;
+      &:hover {
+        outline: 1px solid #8a8585;
+      }
+      //   max-width: 10rem;
+    }
+  }
+  .socials {
+    margin-top: 6rem;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 1300px) {
+      width: 100%;
+      gap: 3rem;
+    }
+
+    .socialLink {
+      .icon {
+        color: #fff;
+        font-size: 1.8rem;
+        cursor: pointer;
+        @media screen and (max-width: 1300px) {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .inspo {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: #8a8585;
+    margin-top: 1rem;
+    span {
+      color: #fff;
+    }
+  }
+}

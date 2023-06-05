@@ -1,0 +1,99 @@
+.home {
+  color: #fff;
+  .container {
+    display: grid;
+    .static {
+      display: grid;
+      .staticContent {
+        .heroImage {
+          display: grid;
+          justify-content: center;
+          img {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+        .greeting {
+          @media screen and (max-width: 1300px) {
+            text-align: center;
+            font-size: 1.5rem;
+          }
+        }
+        .intro {
+          color: #777778;
+          line-height: 2;
+          font-weight: 400;
+          width: 70%;
+          @media screen and (max-width: 1300px) {
+            width: 100%;
+            text-align: center;
+            font-size: 13px;
+          }
+          span {
+            color: #fff;
+          }
+        }
+        .explorebtn {
+          a {
+            text-decoration: none;
+          }
+          display: grid;
+          justify-content: center;
+          margin-top: 2rem;
+          button {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            background-color: #1b1b20;
+            padding: 1rem 2rem;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            gap: 10px;
+            cursor: pointer;
+            &:hover {
+              outline: 1px solid #777778;
+            }
+
+            .icon {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .socials {
+        // margin-top: 1rem;
+        // position: absolute;
+        display: none;
+        align-self: end;
+        bottom: 0;
+        left: 40%;
+        display: flex;
+        // overflow: hidden;
+        gap: 6rem;
+        align-items: center;
+        justify-content: center;
+        @media screen and (max-width: 1300px) {
+          // width: 100%;
+          gap: 3rem;
+        }
+
+        .socialLink {
+          .icon {
+            color: #fff;
+            font-size: 1.8rem;
+            cursor: pointer;
+            @media screen and (max-width: 1300px) {
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
+    .links {
+      width: 100%;
+    }
+  }
+}

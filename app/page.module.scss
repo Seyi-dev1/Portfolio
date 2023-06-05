@@ -1,0 +1,20 @@
+.home {
+  margin-top: 4rem;
+  color: #777778;
+  overflow: hidden;
+  margin-bottom: 3rem;
+
+  .work {
+    @media screen and (max-width: 1300px) {
+      display: none;
+    }
+  }
+
+  .responsiveBio {
+    display: none;
+
+    @media screen and (max-width: 1300px) {
+      display: block;
+    }
+  }
+}

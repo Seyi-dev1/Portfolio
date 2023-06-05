@@ -1,0 +1,44 @@
+.card {
+  background-color: #1c1c20;
+  display: grid;
+  padding: 2rem 2rem;
+
+  .title {
+    color: #fff;
+    h1 {
+      font-size: 1.7rem;
+      @media screen and (max-width: 1300px) {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .stack {
+    color: #c5c5c8;
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    letter-spacing: 1px;
+    @media screen and (max-width: 1300px) {
+      font-size: 0.6rem;
+    }
+  }
+  .description {
+    color: #666669;
+    @media screen and (max-width: 1300px) {
+      font-size: 13px;
+    }
+  }
+  .btn {
+    p {
+      display: grid;
+      grid-template-columns: 20px auto;
+      align-items: center;
+      cursor: pointer;
+      width: fit-content;
+      color: #fff;
+      @media screen and (max-width: 1300px) {
+        font-size: 14px;
+      }
+    }
+  }
+}
