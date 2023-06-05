@@ -41,7 +41,7 @@
           }
           display: grid;
           justify-content: center;
-          margin-top: 2rem;
+          // margin-top: 2rem;
           button {
             display: flex;
             align-items: center;
@@ -57,7 +57,7 @@
             }
             cursor: pointer;
             &:hover {
-              outline: 1px solid #777778;
+              border: 1px solid #777778;
             }
 
             .icon {
