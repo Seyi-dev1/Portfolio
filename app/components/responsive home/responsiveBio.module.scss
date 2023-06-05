@@ -18,7 +18,7 @@
         .greeting {
           @media screen and (max-width: 1300px) {
             text-align: center;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
           }
         }
         .intro {
@@ -29,7 +29,7 @@
           @media screen and (max-width: 1300px) {
             width: 100%;
             text-align: center;
-            font-size: 13px;
+            font-size: 12px;
           }
           span {
             color: #fff;
@@ -52,6 +52,9 @@
             outline: none;
             font-size: 16px;
             gap: 10px;
+            @media screen and (max-width: 1300px) {
+              font-size: 14px;
+            }
             cursor: pointer;
             &:hover {
               outline: 1px solid #777778;
@@ -86,7 +89,7 @@
             font-size: 1.8rem;
             cursor: pointer;
             @media screen and (max-width: 1300px) {
-              font-size: 1.5rem;
+              font-size: 1.3rem;
             }
           }
         }

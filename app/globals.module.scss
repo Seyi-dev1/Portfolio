@@ -11,10 +11,13 @@
   .socials {
     display: none;
     // margin-top: 6rem;
-    margin-bottom: 2rem;
+    // margin-bottom: 2rem;
     gap: 6rem;
-    align-items: center;
+    // align-items: center;
     justify-content: center;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
     @media screen and (max-width: 1300px) {
       gap: 3rem;
       display: flex;
@@ -26,7 +29,7 @@
         font-size: 1.8rem;
         cursor: pointer;
         @media screen and (max-width: 1300px) {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
       }
     }
@@ -35,7 +38,7 @@
   .nav {
     // position: sticky;
     // top: 0;
-    background-color: #21212f;
+    // background-color: #21212f;
     position: absolute;
     top: 0;
     width: 100%;
