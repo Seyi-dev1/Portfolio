@@ -14,6 +14,7 @@ const Work = () => {
             title={obj.title}
             stack={obj.stack}
             description={obj.description}
+            link={obj.link}
           />
         );
       })}

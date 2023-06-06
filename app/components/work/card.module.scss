@@ -29,15 +29,19 @@
     }
   }
   .btn {
-    p {
-      display: grid;
-      grid-template-columns: 20px auto;
-      align-items: center;
-      cursor: pointer;
-      width: fit-content;
-      color: #fff;
-      @media screen and (max-width: 1300px) {
-        font-size: 14px;
+    a {
+      text-decoration: none;
+
+      p {
+        display: grid;
+        grid-template-columns: 20px auto;
+        align-items: center;
+        cursor: pointer;
+        width: fit-content;
+        color: #fff;
+        @media screen and (max-width: 1300px) {
+          font-size: 14px;
+        }
       }
     }
   }

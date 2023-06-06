@@ -5,6 +5,7 @@ import { useState } from "react";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitter, BsFillPlayFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
 
 import React from "react";
 let buttonToggle = () => {
@@ -74,6 +75,11 @@ const Navbar = () => {
                   <div className={"socialLink"}>
                     <span>
                       <MdEmail className={"icon"} />
+                    </span>
+                  </div>
+                  <div className={"socialLink"}>
+                    <span>
+                      <FaLinkedinIn className={"icon"} />
                     </span>
                   </div>
                 </div>

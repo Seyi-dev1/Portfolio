@@ -4,6 +4,7 @@ import React from "react";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitter, BsFillPlayFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <button className={styles.linkbtn}>Home</button>
         </Link>
         <Link href={"/work"}>
-          <button className={styles.linkbtn}>Linked in</button>
+          <button className={styles.linkbtn}>Resume</button>
         </Link>
       </div>
       <div className={styles.socials}>
@@ -30,6 +31,11 @@ const Footer = () => {
         <div className={styles.socialLink}>
           <span>
             <MdEmail className={styles.icon} />
+          </span>
+        </div>
+        <div className={styles.socialLink}>
+          <span>
+            <FaLinkedinIn className={styles.icon} />
           </span>
         </div>
       </div>

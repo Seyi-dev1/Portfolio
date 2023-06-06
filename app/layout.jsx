@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import { BsGithub } from "react-icons/bs";
 import { BsTwitter, BsFillPlayFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
 import { usePathname } from "next/navigation";
 
 const poppins = Montserrat({
@@ -43,6 +44,11 @@ export default function RootLayout({ children }) {
             <div className={styles.socialLink}>
               <span>
                 <MdEmail className={styles.icon} />
+              </span>
+            </div>
+            <div className={styles.socialLink}>
+              <span>
+                <FaLinkedinIn className={styles.icon} />
               </span>
             </div>
           </div>

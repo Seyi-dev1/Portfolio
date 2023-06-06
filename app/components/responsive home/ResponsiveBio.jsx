@@ -16,7 +16,7 @@ const ResponsiveBio = () => {
         <div className={styles.static}>
           <div className={styles.staticContent}>
             <div className={styles.heroImage}>
-              <Image width={150} height={150} src={avatar3} alt="avatar" />
+              <Image width={120} height={120} src={avatar3} alt="avatar" />
             </div>
             <h1 className={styles.greeting}>Hello, I'm Oluwaseyi Samuel.</h1>
             <p className={styles.intro}>

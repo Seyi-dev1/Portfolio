@@ -2,7 +2,7 @@ import styles from "./card.module.scss";
 import React from "react";
 import { BsEyeFill } from "react-icons/bs";
 
-const Card = ({ title, stack, description }) => {
+const Card = ({ title, stack, description, link }) => {
   return (
     <div className={styles.card}>
       <div className={styles.title}>
@@ -16,9 +16,11 @@ const Card = ({ title, stack, description }) => {
         <p>{description}</p>
       </div>
       <div className={styles.btn}>
-        <p>
-          <BsEyeFill /> Live
-        </p>
+        <a href={link} target="_blank">
+          <p>
+            <BsEyeFill /> Live
+          </p>
+        </a>
       </div>
     </div>
   );

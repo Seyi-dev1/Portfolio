@@ -9,6 +9,7 @@ import { MdEmail } from "react-icons/md";
 import Image from "next/image";
 // import avatar1 from "../assets/seyiportrait.jpg";
 import avatar2 from "../../../assets/fotor-ai-2023060322410.jpg";
+import avatar3 from "../../../assets/IMG-20230123-WA0001~3.jpg";
 import { useEffect, useState } from "react";
 
 const Bio = () => {
@@ -74,7 +75,7 @@ const Bio = () => {
             </div>
             <div className={styles.socials}>
               <span className={styles.image}>
-                <Image src={avatar2} alt="avatar" />
+                <Image src={avatar3} alt="avatar" />
               </span>
               <span className={styles.socialLink}>
                 <span>
