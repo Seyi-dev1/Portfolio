@@ -1,5 +1,7 @@
 import styles from "./responsiveBio.module.scss";
 import avatar2 from "../../../assets/fotor-ai-2023060322410.jpg";
+import avatar3 from "../../../assets/IMG-20230123-WA0001~3.jpg";
+import avatar4 from "../../../assets/IMG-20230123-WA0001.jpg";
 import { BsGithub } from "react-icons/bs";
 import { BsArrowUpRight } from "react-icons/bs";
 import { BsTwitter, BsFillPlayFill } from "react-icons/bs";
@@ -14,7 +16,7 @@ const ResponsiveBio = () => {
         <div className={styles.static}>
           <div className={styles.staticContent}>
             <div className={styles.heroImage}>
-              <Image src={avatar2} alt="avatar" />
+              <Image width={150} height={150} src={avatar3} alt="avatar" />
             </div>
             <h1 className={styles.greeting}>Hello, I'm Oluwaseyi Samuel.</h1>
             <p className={styles.intro}>
