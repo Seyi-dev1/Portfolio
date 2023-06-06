@@ -2,7 +2,7 @@
   background-color: #151515;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  // box-sizing: border-box;
   display: grid;
   height: 100vh;
   overflow-x: hidden;
@@ -12,9 +12,8 @@
     gap: 6rem;
     justify-content: center;
     position: absolute;
-    bottom: 0rem;
+    bottom: 2rem;
     width: 100%;
-    border: 1px solid red;
     @media screen and (max-width: 1300px) {
       gap: 3rem;
       display: flex;
@@ -36,7 +35,6 @@
     position: absolute;
     top: 0;
     width: 100%;
-    border: 1px solid red;
   }
 }
 .layout {
@@ -47,7 +45,6 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
   color: #fff;
-  border: 1px solid red;
   @media screen and (max-width: 1300px) {
     padding: 0rem 3rem;
     grid-template-columns: 1fr;

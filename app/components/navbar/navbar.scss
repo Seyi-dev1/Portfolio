@@ -98,6 +98,9 @@
   h1 {
     font-weight: 700;
     font-size: 1.5rem;
+    @media screen and (max-width: 1300px) {
+      font-weight: 600;
+    }
   }
 
   .menu {

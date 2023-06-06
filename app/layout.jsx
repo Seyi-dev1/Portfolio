@@ -22,13 +22,13 @@ export default function RootLayout({ children }) {
         <div className={styles.nav}>
           <Navbar />
         </div>
-        {/* <div className={styles.layout}>
+        <div className={styles.layout}>
           <div id="bio" className={styles.bio}>
             <Bio />
           </div>
           <div className={styles.outlet}>{children}</div>
-        </div> */}
-        {/* {path === "/" && (
+        </div>
+        {path === "/" && (
           <div className={styles.socials}>
             <div className={styles.socialLink}>
               <span>
@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
               </span>
             </div>
           </div>
-        )} */}
+        )}
       </body>
     </html>
   );
