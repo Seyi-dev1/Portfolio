@@ -5,19 +5,16 @@
   box-sizing: border-box;
   display: grid;
   height: 100vh;
-  // align-content: center;
-  // overflow: hidden;
+  overflow-x: hidden;
 
   .socials {
     display: none;
-    // margin-top: 6rem;
-    // margin-bottom: 2rem;
     gap: 6rem;
-    // align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 2rem;
+    bottom: 0rem;
     width: 100%;
+    border: 1px solid red;
     @media screen and (max-width: 1300px) {
       gap: 3rem;
       display: flex;
@@ -36,13 +33,10 @@
   }
 
   .nav {
-    // position: sticky;
-    // top: 0;
-    // background-color: #21212f;
     position: absolute;
     top: 0;
     width: 100%;
-    // background-color: #151515;
+    border: 1px solid red;
   }
 }
 .layout {
@@ -53,6 +47,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
   color: #fff;
+  border: 1px solid red;
   @media screen and (max-width: 1300px) {
     padding: 0rem 3rem;
     grid-template-columns: 1fr;
