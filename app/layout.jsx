@@ -19,9 +19,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${poppins.className} ${styles.body}`}>
-        <div className={styles.nav}>
+        {/* <div className={styles.nav}>
           <Navbar />
-        </div>
+        </div> */}
         <div className={styles.layout}>
           <div id="bio" className={styles.bio}>
             <Bio />

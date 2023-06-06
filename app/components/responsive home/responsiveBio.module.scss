@@ -66,34 +66,6 @@
           }
         }
       }
-      .socials {
-        // margin-top: 1rem;
-        // position: absolute;
-        display: none;
-        align-self: end;
-        bottom: 0;
-        left: 40%;
-        display: flex;
-        // overflow: hidden;
-        gap: 6rem;
-        align-items: center;
-        justify-content: center;
-        @media screen and (max-width: 1300px) {
-          // width: 100%;
-          gap: 3rem;
-        }
-
-        .socialLink {
-          .icon {
-            color: #fff;
-            font-size: 1.8rem;
-            cursor: pointer;
-            @media screen and (max-width: 1300px) {
-              font-size: 1.3rem;
-            }
-          }
-        }
-      }
     }
     .links {
       width: 100%;

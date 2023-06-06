@@ -17,14 +17,14 @@ const ResponsiveBio = () => {
               <Image src={avatar2} alt="avatar" />
             </div>
             <h1 className={styles.greeting}>Hello, I'm Oluwaseyi Samuel.</h1>
-            {/* <p className={styles.intro}>
+            <p className={styles.intro}>
               I'm a <span>software engineer</span> who loves making cool and fun{" "}
               <span>web apps</span>. I know how to use HTML, CSS, JavaScript,
               and a bunch of <span>frontend frameworks</span> like{" "}
               <span>React</span>, <span>Angular</span>, <span>Vue</span>, and{" "}
               <span>Svelte</span>. I'm always curious about new stuff and how to
               make the web better for <span>everyone</span>.
-            </p> */}
+            </p>
             <div className={styles.explorebtn}>
               <Link href={"/work"}>
                 <button>
