@@ -33,24 +33,48 @@ export default function RootLayout({ children }) {
           <div className={styles.socials}>
             <div className={styles.socialLink}>
               <span>
-                <BsGithub className={styles.icon} />
+                <a href="https://github.com/Seyi-dev1" target="_blank">
+                  <BsGithub className={styles.icon} />
+                </a>
               </span>
             </div>
             <div className={styles.socialLink}>
               <span>
-                <BsTwitter className={styles.icon} />
+                <a href="https://twitter.com/oswagz19" target="_blank">
+                  <BsTwitter className={styles.icon} />
+                </a>
               </span>
             </div>
             <div className={styles.socialLink}>
               <span>
-                <MdEmail className={styles.icon} />
+                <a
+                  href="https://mail.google.com/mail/?view=cm&fs=1&to=samoluwaseyi25@gmail.com"
+                  target="_blank"
+                >
+                  <MdEmail className={styles.icon} />
+                </a>
               </span>
             </div>
             <div className={styles.socialLink}>
               <span>
-                <FaLinkedinIn className={styles.icon} />
+                <a
+                  href="https://www.linkedin.com/in/samuel-oluwaseyi-26883a195/"
+                  target="_blank"
+                >
+                  <FaLinkedinIn className={styles.icon} />
+                </a>
               </span>
             </div>
+          </div>
+        )}
+        {path === "/" && (
+          <div className={styles.inspo}>
+            <p>
+              Inspired by{" "}
+              <a href="https://twitter.com/kadetXx" target="_blank">
+                <span>Kadet</span>
+              </a>
+            </p>
           </div>
         )}
       </body>

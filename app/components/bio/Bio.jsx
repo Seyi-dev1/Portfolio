@@ -11,6 +11,7 @@ import Image from "next/image";
 import avatar2 from "../../../assets/fotor-ai-2023060322410.jpg";
 import avatar3 from "../../../assets/IMG-20230123-WA0001~3.jpg";
 import { useEffect, useState } from "react";
+import Link from "next/link";
 
 const Bio = () => {
   const [width, setWidth] = useState(1300);
@@ -56,58 +57,86 @@ const Bio = () => {
             <div className={styles.list}>
               <div className={`${styles.listItem} ${styles.active}`}>
                 <div className={styles.number}>
-                  <p>01</p>
+                  <p>00</p>
                 </div>
                 <div className={styles.line}></div>
                 <div className={styles.text}>
                   <p>WORK</p>
                 </div>
               </div>
-              <div className={styles.listItem}>
-                <div className={styles.number}>
-                  <p>02</p>
+              <Link target="_blank" href={"/seyidev resume.pdf"}>
+                <div className={styles.listItem}>
+                  <div className={styles.number}>
+                    <p>01</p>
+                  </div>
+                  <div className={styles.line}></div>
+                  <div className={styles.text}>
+                    <p>RESUME</p>
+                  </div>
                 </div>
-                <div className={styles.line}></div>
-                <div className={styles.text}>
-                  <p>LINKED IN</p>
+              </Link>
+              <a
+                href="https://www.linkedin.com/in/samuel-oluwaseyi-26883a195/"
+                target="_blank"
+              >
+                <div className={styles.listItem}>
+                  <div className={styles.number}>
+                    <p>02</p>
+                  </div>
+                  <div className={styles.line}></div>
+                  <div className={styles.text}>
+                    <p>LINKED IN</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className={styles.socials}>
               <span className={styles.image}>
                 <Image src={avatar3} alt="avatar" />
               </span>
-              <span className={styles.socialLink}>
-                <span>
-                  <BsGithub className={styles.icon} />
+              <a href="https://github.com/Seyi-dev1" target="_blank">
+                <span className={styles.socialLink}>
+                  <span>
+                    <BsGithub className={styles.icon} />
+                  </span>
+                  <span>Github</span>
+                  <span className={styles.arrowUp}>
+                    <BsArrowUpRight className={styles.icon} />
+                  </span>
                 </span>
-                <span>Github</span>
-                <span className={styles.arrowUp}>
-                  <BsArrowUpRight className={styles.icon} />
+              </a>
+              <a href="https://twitter.com/oswagz19" target="_blank">
+                <span className={styles.socialLink}>
+                  <span>
+                    <BsTwitter className={styles.icon} />
+                  </span>
+                  <span>Twitter</span>
+                  <span className={styles.arrowUp}>
+                    <BsArrowUpRight className={styles.icon} />
+                  </span>
                 </span>
-              </span>
-              <span className={styles.socialLink}>
-                <span>
-                  <BsTwitter className={styles.icon} />
+              </a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=samoluwaseyi25@gmail.com"
+                target="_blank"
+              >
+                <span className={styles.socialLink}>
+                  <span>
+                    <MdEmail className={styles.icon} />
+                  </span>
+                  <span>Email</span>
+                  <span className={styles.arrowUp}>
+                    <BsArrowUpRight className={styles.icon} />
+                  </span>
                 </span>
-                <span>Twitter</span>
-                <span className={styles.arrowUp}>
-                  <BsArrowUpRight className={styles.icon} />
-                </span>
-              </span>
-              <span className={styles.socialLink}>
-                <span>
-                  <MdEmail className={styles.icon} />
-                </span>
-                <span>Email</span>
-                <span className={styles.arrowUp}>
-                  <BsArrowUpRight className={styles.icon} />
-                </span>
-              </span>
+              </a>
             </div>
             <div className={styles.inspo}>
               <p>
-                Inspired by <span>Kadet</span>
+                Inspired by{" "}
+                <a href="https://twitter.com/kadetXx" target="_blank">
+                  <span>Kadet</span>
+                </a>
               </p>
             </div>
           </div>

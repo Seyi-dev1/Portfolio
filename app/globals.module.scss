@@ -12,7 +12,7 @@
     gap: 6rem;
     justify-content: center;
     position: absolute;
-    bottom: 1rem;
+    bottom: 2.5rem;
     width: 100%;
     @media screen and (max-width: 1300px) {
       gap: 3rem;
@@ -28,6 +28,24 @@
           font-size: 1.3rem;
         }
       }
+    }
+  }
+
+  .inspo {
+    position: absolute;
+    bottom: 0;
+    color: #878686;
+    font-size: 11px;
+    display: none;
+    justify-content: center;
+    width: 100%;
+    @media screen and (max-width: 1300px) {
+      display: flex;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
     }
   }
 

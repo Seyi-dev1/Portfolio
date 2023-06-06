@@ -41,6 +41,9 @@
         .list {
           display: grid;
           margin-top: 2rem;
+          a {
+            text-decoration: none;
+          }
           .listItem {
             display: grid;
             align-items: center;
@@ -87,12 +90,16 @@
           }
         }
         .socials {
-          margin-top: 5rem;
+          margin-top: 2rem;
           display: grid;
           grid-template-columns: repeat(4, 1fr);
           gap: 1rem;
           align-items: center;
           width: 70%;
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
           @media screen and (max-width: 1200px) {
             // justify-self: center;
             width: 100%;
@@ -135,8 +142,11 @@
         .inspo {
           font-size: 14px;
           color: #777778;
-          span {
-            color: #fff;
+          a {
+            text-decoration: none;
+            span {
+              color: #fff;
+            }
           }
         }
       }

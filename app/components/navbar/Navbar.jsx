@@ -26,7 +26,7 @@ const Navbar = () => {
   };
 
   const action = () => {
-    setTimeout(toggleModal, 500);
+    setTimeout(toggleModal, 900);
   };
   return (
     <div className="navbar">
@@ -64,22 +64,33 @@ const Navbar = () => {
                 <div className={"socials"}>
                   <div className={"socialLink"}>
                     <span>
-                      <BsGithub className={"icon"} />
+                      <a href="https://github.com/Seyi-dev1" target="_blank">
+                        <BsGithub className={"icon"} />
+                      </a>
                     </span>
                   </div>
                   <div className={"socialLink"}>
                     <span>
-                      <BsTwitter className={"icon"} />
+                      <a href="https://twitter.com/oswagz19">
+                        <BsTwitter className={"icon"} />
+                      </a>
                     </span>
                   </div>
                   <div className={"socialLink"}>
                     <span>
-                      <MdEmail className={"icon"} />
+                      <a
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=samoluwaseyi25@gmail.com"
+                        target="_blank"
+                      >
+                        <MdEmail className={"icon"} />
+                      </a>
                     </span>
                   </div>
                   <div className={"socialLink"}>
                     <span>
-                      <FaLinkedinIn className={"icon"} />
+                      <a href="https://www.linkedin.com/in/samuel-oluwaseyi-26883a195/">
+                        <FaLinkedinIn className={"icon"} />
+                      </a>
                     </span>
                   </div>
                 </div>
