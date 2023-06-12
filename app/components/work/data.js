@@ -1,11 +1,10 @@
 export const data = [
   {
-    title: "Materioo Dashboard",
-    stack: "REACTJS + FIREBASE + REDUX",
-    description:
-      "Cool admin dashboard with inspiration from material UI themes",
-    id: 1,
-    link: "https://dashboard-nine-ivory.vercel.app/signin",
+    title: "Regal Clothing",
+    stack: "REACTJS + REDUX-SAGA + FIREBASE",
+    description: "Online Fashion Store",
+    id: 3,
+    link: "https://crown-clothing-mu.vercel.app/",
   },
   {
     title: "Quizzical",
@@ -15,11 +14,12 @@ export const data = [
     link: "https://quzzical-nine.vercel.app/",
   },
   {
-    title: "Crown Clothing",
-    stack: "REACTJS + REDUX-SAGA + FIREBASE",
-    description: "Online Fashion Store",
-    id: 3,
-    link: "https://crown-clothing-five.vercel.app/",
+    title: "Materioo Dashboard",
+    stack: "REACTJS + FIREBASE + REDUX",
+    description:
+      "Cool admin dashboard with inspiration from material UI themes",
+    id: 1,
+    link: "https://dashboard-nine-ivory.vercel.app/signin",
   },
   {
     title: "Movies",

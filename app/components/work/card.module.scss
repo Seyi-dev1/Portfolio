@@ -6,7 +6,7 @@
   .title {
     color: #fff;
     h1 {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       @media screen and (max-width: 1300px) {
         font-size: 1.1rem;
       }
@@ -15,7 +15,7 @@
   .stack {
     color: #c5c5c8;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     margin-top: -1rem;
     letter-spacing: 1px;
     @media screen and (max-width: 1300px) {
@@ -24,8 +24,9 @@
   }
   .description {
     color: #666669;
+    font-size: 12px;
     @media screen and (max-width: 1300px) {
-      font-size: 13px;
+      font-size: 12px;
     }
   }
   .btn {
@@ -39,8 +40,9 @@
         cursor: pointer;
         width: fit-content;
         color: #fff;
+        font-size: 12px;
         @media screen and (max-width: 1300px) {
-          font-size: 14px;
+          font-size: 12px;
         }
       }
     }

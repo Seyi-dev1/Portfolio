@@ -28,7 +28,7 @@ const Bio = () => {
 
       return false;
     }
-    width > 1200 &&
+    width > 1100 &&
       document.querySelector("#bio").addEventListener("wheel", preventScroll, {
         passive: false,
       });

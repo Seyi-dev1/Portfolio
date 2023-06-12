@@ -5,7 +5,7 @@
   margin-bottom: 3rem;
 
   .work {
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 1100px) {
       display: none;
     }
   }
@@ -13,7 +13,7 @@
   .responsiveBio {
     display: none;
 
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 1100px) {
       display: block;
     }
   }
