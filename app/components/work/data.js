@@ -11,7 +11,7 @@ export const data = [
     stack: "REACTJS + JAVASCRIPT + SASS",
     description: "Trivia game, with questions from open trivia database API",
     id: 2,
-    link: "https://quzzical-nine.vercel.app/",
+    link: "https://quizzical-azure.vercel.app/",
   },
   {
     title: "Materioo Dashboard",
