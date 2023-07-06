@@ -1,9 +1,16 @@
 export const data = [
   {
+    title: "Wuild Protocol",
+    stack: "NEXTJS + GSAP + REDUX",
+    description: "Lets go on an Adventure",
+    id: 1,
+    link: "https://wuild-protocol.vercel.app/",
+  },
+  {
     title: "Regal Clothing",
     stack: "REACTJS + REDUX-SAGA + FIREBASE",
     description: "Online Fashion Store",
-    id: 3,
+    id: 2,
     link: "https://crown-clothing-mu.vercel.app/",
   },
   {
@@ -18,7 +25,7 @@ export const data = [
     stack: "REACTJS + FIREBASE + REDUX",
     description:
       "Cool admin dashboard with inspiration from material UI themes",
-    id: 1,
+    id: 3,
     link: "https://dashboard-nine-ivory.vercel.app/signin",
   },
   {
