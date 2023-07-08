@@ -2,6 +2,10 @@
   background-color: #1c1c20;
   display: grid;
   padding: 2rem 2rem;
+  @media screen and (max-width: 450px) {
+    padding: 1rem 2rem;
+    max-width: 15rem;
+  }
 
   .title {
     color: #fff;
@@ -9,6 +13,9 @@
       font-size: 1.5rem;
       @media screen and (max-width: 1300px) {
         font-size: 1.1rem;
+      }
+      @media screen and (max-width: 450px) {
+        font-size: 0.9rem;
       }
     }
   }
@@ -20,6 +27,10 @@
     letter-spacing: 1px;
     @media screen and (max-width: 1300px) {
       font-size: 0.6rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 0.5rem;
+      margin-top: 0.1rem;
     }
   }
   .description {
