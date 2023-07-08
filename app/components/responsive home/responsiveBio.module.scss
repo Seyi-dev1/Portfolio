@@ -55,6 +55,10 @@
             @media screen and (max-width: 1300px) {
               font-size: 14px;
             }
+            @media screen and (max-width: 450px) {
+              font-size: 12px;
+              padding: 0.8rem 1.7rem;
+            }
             cursor: pointer;
             &:hover {
               border: 1px solid #777778;
